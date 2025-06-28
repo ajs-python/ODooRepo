@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- System Parameters for Furniture Calculations -->
+        
+        <record id="furniture_freight_rate_param" model="ir.config_parameter">
+            <field name="key">furniture.freight_rate_param</field>
+            <field name="value">160.93</field>
+        </record>
+        
+        <record id="furniture_usd_aud_rate_param" model="ir.config_parameter">
+            <field name="key">furniture.usd_aud_rate_param</field>
+            <field name="value">0.665</field>
+        </record>
+        
+        <record id="furniture_margin_factor_param" model="ir.config_parameter">
+            <field name="key">furniture.margin_factor_param</field>
+            <field name="value">0.7</field>
+        </record>
+        
+        <record id="furniture_rrp_multiplier_param" model="ir.config_parameter">
+            <field name="key">furniture.rrp_multiplier_param</field>
+            <field name="value">1.8</field>
+        </record>
+        
+    </data>
+</odoo>
